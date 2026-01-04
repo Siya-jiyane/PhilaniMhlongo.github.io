@@ -1,8 +1,8 @@
 {
-  "name": "ubuntu-terminal-portfolio",
+  "name": "siyabonga-portfolio",
   "private": true,
   "version": "0.0.0",
-  "homepage": "https://philanimhlongo.github.io/PhilaniMhlongo.github.io/",
+  "homepage": "https://siyabongajiyane.github.io/siyabonga-portfolio/",
   "type": "module",
   "scripts": {
     "dev": "vite",

@@ -8,7 +8,7 @@ export const useTerminal = (fileSystem: FileSystemItem[]) => {
   const [selectedFile, setSelectedFile] = useState<FileSystemItem | null>(null)
   const [selectedFileContent, setSelectedFileContent] = useState("")
   const [terminalHistory, setTerminalHistory] = useState<string[]>([
-    "Welcome to Philani's DevOps Workspace",
+    "Welcome to Siyabonga's IT & DevOps Workspace",
     'Type "help" for available commands',
     "",
   ])
@@ -87,7 +87,7 @@ export const useTerminal = (fileSystem: FileSystemItem[]) => {
         setTerminalHistory([])
         return
       case "whoami":
-        output = ["Philani Mhlongo", "DevOps Engineer", "South Africa"]
+        output = ["Siyabonga Jiyane", "DevOps Engineer", "Bryanston, South Africa"]
         break
       default:
         output = [`Command not found: ${command}`]

@@ -1,0 +1,151 @@
+{
+  "cloud_platforms": {
+    "aws_ec2": {
+      "level": "intermediate",
+      "years": 2,
+      "description": "Virtual machine management and deployment"
+    },
+    "aws_s3": {
+      "level": "intermediate", 
+      "years": 2,
+      "description": "Object storage and backup solutions"
+    },
+    "aws_iam": {
+      "level": "intermediate",
+      "years": 2,
+      "description": "Identity and access management"
+    },
+    "aws_vpc": {
+      "level": "beginner",
+      "years": 1,
+      "description": "Virtual private cloud networking"
+    },
+    "aws_cloudwatch": {
+      "level": "intermediate",
+      "years": 2,
+      "description": "Monitoring and logging"
+    },
+    "aws_lambda": {
+      "level": "beginner",
+      "years": 0.5,
+      "description": "Serverless computing functions"
+    }
+  },
+  "infrastructure_automation": {
+    "terraform": {
+      "level": "beginner",
+      "years": 0.5,
+      "description": "Infrastructure as Code - learning"
+    },
+    "aws_cloudformation": {
+      "level": "beginner",
+      "years": 0.5,
+      "description": "AWS native IaC templates"
+    },
+    "vagrant": {
+      "level": "beginner",
+      "years": 0.5,
+      "description": "Development environment automation"
+    },
+    "ansible": {
+      "level": "beginner",
+      "years": 1,
+      "description": "Configuration management"
+    }
+  },
+  "cicd_tools": {
+    "github_actions": {
+      "level": "beginner",
+      "years": 0.5,
+      "description": "CI/CD pipeline automation"
+    },
+    "gitlab_ci": {
+      "level": "beginner",
+      "years": 0.5,
+      "description": "GitLab CI/CD pipelines"
+    },
+    "jenkins": {
+      "level": "novice",
+      "years": 0.3,
+      "description": "Basic pipeline creation"
+    }
+  },
+  "containerization": {
+    "docker": {
+      "level": "beginner",
+      "years": 0.5,
+      "description": "Container management and Dockerfiles"
+    },
+    "kubernetes": {
+      "level": "novice",
+      "years": 0.3,
+      "description": "Container orchestration - learning"
+    },
+    "eks": {
+      "level": "novice",
+      "years": 0.3,
+      "description": "AWS Kubernetes service"
+    }
+  },
+  "scripting": {
+    "powershell": {
+      "level": "advanced",
+      "years": 4,
+      "description": "Windows automation and administration"
+    },
+    "bash": {
+      "level": "intermediate",
+      "years": 2,
+      "description": "Linux shell scripting"
+    },
+    "python": {
+      "level": "beginner",
+      "years": 1,
+      "description": "Basic automation and Flask apps"
+    }
+  },
+  "systems_administration": {
+    "windows_server": {
+      "level": "advanced",
+      "years": 4,
+      "description": "Server management and configuration"
+    },
+    "active_directory": {
+      "level": "advanced",
+      "years": 4,
+      "description": "User and group management"
+    },
+    "intune": {
+      "level": "advanced",
+      "years": 3,
+      "description": "Device management and policies"
+    },
+    "dns_dhcp": {
+      "level": "intermediate",
+      "years": 4,
+      "description": "Network services configuration"
+    }
+  },
+  "monitoring_security": {
+    "aws_cloudwatch": {
+      "level": "intermediate",
+      "years": 2,
+      "description": "Cloud monitoring and alerting"
+    },
+    "windows_event_viewer": {
+      "level": "advanced",
+      "years": 4,
+      "description": "System log analysis"
+    },
+    "tenable": {
+      "level": "intermediate",
+      "years": 2,
+      "description": "Vulnerability scanning and management"
+    },
+    "microsoft_defender": {
+      "level": "advanced",
+      "years": 3,
+      "description": "Endpoint protection and threat analysis"
+    }
+  }
+}

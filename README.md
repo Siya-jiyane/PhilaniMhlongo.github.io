@@ -1,13 +1,13 @@
 <hr>
 
 <h1 align="center">
-  Philani
+  Siyabonga Jiyane
 </h1>
 <h2 align="center">
-  Philani Mhlongo - personal website
+  Siyabonga Jiyane - DevOps Engineer
 </h2>
 <p align="center">
-  My new personal website <a href="https://philanimhlongo.github.io/" target="_blank">philanimhlongo</a> built using React, TypeScript, and Tailwind CSS from scratch.
+  My personal portfolio website built using React, TypeScript, and Tailwind CSS - a learning project to showcase my journey into modern web development.
 </p>
 
 

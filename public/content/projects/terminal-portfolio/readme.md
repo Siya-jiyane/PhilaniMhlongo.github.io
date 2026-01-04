@@ -1,127 +1,102 @@
- # Ubuntu Terminal Portfolio
+# Terminal Portfolio Website
 
-> A fully interactive terminal-style developer portfolio for showcasing projects, blog posts, education, and DevOps expertise.
-
-
+> An interactive terminal-style portfolio website - my first dive into modern web development!
 
 ## ✨ About
 
-This portfolio mimics a Unix-like terminal environment and is designed to provide a fun, command-line inspired user experience. Users can explore projects, blogs, education history, and skills using familiar commands like `ls`, `cd`, and `cat`.
+This portfolio was a "vibe coding" project - I challenged myself to learn React, TypeScript, and modern web development while creating something unique to showcase my professional journey. As someone with a background in IT administration, this was completely outside my comfort zone, but that's exactly why I built it.
 
-Built with **React + TypeScript**, **Tailwind CSS**, **Framer Motion**, and fully customizable with a modular file system structure.
+The site mimics a Unix-like terminal environment, allowing visitors to explore my work experience, skills, and projects using familiar commands like `ls`, `cd`, and `cat`.
 
 ---
 
-**[View on GitHub](https://github.com/philanimhlongo/PhilaniMhlongo.github.io)**
+**[View Live Site](https://siyabongajiyane.github.io/siyabonga-portfolio)** | **[View on GitHub](https://github.com/siyabongajiyane/siyabonga-portfolio)**
 
 ---
 
 ## 🛠 Features
 
-- 📁 Interactive file explorer
+- 📁 Interactive file explorer mimicking a Unix file system
 - ⌨️ Custom terminal with real commands (`ls`, `cd`, `cat`, `pwd`, `help`, etc.)
-- 📄 Markdown rendering with syntax highlighting
-- 🌀 Smooth animations (Framer Motion)
-- 🎨 Dark mode and glassmorphism design
-- 🧠 GitOps, CI/CD, Cloud projects, and more showcased
-- 📚 Responsive & mobile-friendly
+- 📄 Markdown rendering for content display
+- 🌀 Smooth animations with Framer Motion
+- 🎨 Modern dark theme with glassmorphism design
+- 📱 Fully responsive design for all devices
 
 ---
 
 ## 🧰 Tech Stack
 
-- **React 19 + TypeScript**
-- **Vite** - Fast dev/build
-- **TailwindCSS** - Utility-first styling
-- **Framer Motion** - Animations
-- **Lucide Icons** - Terminal aesthetics
-- **React-Markdown + Remark-GFM** - Blog/MD rendering
-- **ESLint** & **Type Checking**
+- **React 19 + TypeScript** - Component-based UI with type safety
+- **Vite** - Fast development and build tool
+- **TailwindCSS** - Utility-first CSS framework
+- **Framer Motion** - Animation library
+- **React-Markdown** - Markdown content rendering
+- **Lucide Icons** - Beautiful iconography
 
 ---
 
-## 📂 Project Structure
+## 🚀 What I Learned
 
-```bash
-├── public/
-│   └── content/         # Markdown content: blogs, education, about, projects
-├── src/
-│   ├── components/      # Reusable UI and layout
-│   ├── context/         # File system tree definition
-│   ├── hooks/           # Custom terminal hook
-│   ├── styles/          # Tailwind CSS + custom styles
-│   ├── utils/           # File handling, class utils
-│   └── App.tsx          # Main UI logic
-├── index.html
-├── package.json
-└── tailwind.config.js
-````
+This project was a massive learning experience for me:
+
+- **React Fundamentals**: Components, hooks, state management, and props
+- **TypeScript**: Type safety, interfaces, and better developer experience
+- **Modern CSS**: Tailwind utility classes and responsive design
+- **Animation**: Creating smooth transitions with Framer Motion
+- **File System Simulation**: Building a virtual file system in the browser
+- **Project Structure**: Organizing a modern web application
+- **Git Workflow**: Version control for web development projects
+
+### The Challenge
+
+Coming from a systems administration background, frontend development was completely new territory. I had to learn:
+- How modern JavaScript frameworks work
+- Component-based architecture
+- CSS-in-JS concepts
+- Build tools and development workflows
+- Deployment to GitHub Pages
+
+### Why I Built This
+
+1. **Learning Challenge**: Wanted to prove I could pick up new technologies quickly
+2. **Career Transition**: Demonstrating adaptability as I move toward DevOps
+3. **Unique Presentation**: Standing out from traditional portfolio websites
+4. **Technical Growth**: Expanding beyond my comfort zone of server administration
 
 ---
 
-## 📦 Installation
+## 🔧 Installation & Setup
 
 ```bash
-git clone https://github.com/PhilaniMhlongo/PhilaniMhlongo.github.io.git
-cd PhilaniMhlongo.github.io
+# Clone the repository
+git clone https://github.com/siyabongajiyane/siyabonga-portfolio.git
+
+# Navigate to project directory
+cd siyabonga-portfolio
+
+# Install dependencies
 npm install
+
+# Start development server
 npm run dev
 ```
 
 ---
 
-## 🧪 Build & Deploy
+## 🎯 Future Improvements
 
-```bash
-# Build for production
-npm run build
-
-# Preview
-npm run preview
-
-# Deploy to GitHub Pages
-npm run deploy
-```
+- Add more interactive terminal commands
+- Implement a simple blog system
+- Add project filtering and search
+- Include more animations and transitions
+- Add a contact form
+- Implement dark/light theme toggle
 
 ---
 
-## ⚙️ Terminal Commands
+## 💭 Reflection
 
-* `ls` — list files/folders
-* `cd <dir>` — change directory
-* `cat <file>` — view file content
-* `pwd` — show current path
-* `clear` — clear terminal
-* `whoami` — about Philani
-* `help` — show command list
+This project taught me that stepping outside your comfort zone is where real growth happens. While I'm still learning web development, building this portfolio showed me that my problem-solving skills from IT administration translate well to software development.
 
----
-
-## 📖 Sample Content
-
-Explore content under:
-
-* `/projects`
-* `/blog`
-* `/education`
-* `/skills`
-* `/about.md`
-
-All content is loaded from markdown/JSON files and rendered dynamically.
-
----
-
-## 🧑‍💻 Author
-
-**Philani Mhlongo**
-DevOps Engineer • Infrastructure Automation Enthusiast
-[GitHub](https://github.com/PhilaniMhlongo) • [LinkedIn](https://linkedin.com/in/philani-mhlongo-720382131) • [Email](mailto:mhlongophilani04@gmail.com)
-
----
-
-## 📝 License
-
-MIT License © Philani Mhlongo
-
-
-
+It's also a reminder that in tech, being willing to learn and adapt is just as important as what you already know.
